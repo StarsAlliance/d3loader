@@ -1,0 +1,7 @@
+C:\Documents and Settings\user\Рабочий стол\D3Loader\src\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\Рабочий стол\D3Loader\src\obj\x86\Debug\ConsoleApplication1.csproj.GenerateResource.Cache
+C:\Documents and Settings\user\Рабочий стол\D3Loader\src\bin\Debug\D3Loader.exe
+C:\Documents and Settings\user\Рабочий стол\D3Loader\src\bin\Debug\D3Loader.pdb
+C:\Documents and Settings\user\Рабочий стол\D3Loader\src\obj\x86\Debug\D3Loader.Properties.Resources.resources
+C:\Documents and Settings\user\Рабочий стол\D3Loader\src\obj\x86\Debug\D3Loader.exe
+C:\Documents and Settings\user\Рабочий стол\D3Loader\src\obj\x86\Debug\D3Loader.pdb
