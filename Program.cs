@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using System.Text;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
 using D3Loader.Properties;
 
@@ -18,12 +16,12 @@ namespace D3Loader
                 d3.StartInfo.Arguments = "-launch";
                 d3.StartInfo.CreateNoWindow = true;
                 d3.StartInfo.UseShellExecute = false;
-                System.Console.WriteLine("Starting the game");
+                System.Console.WriteLine(Resources.Start_Main_Starting_the_game);
                 d3.Start();
             }
             else
             { 
-                System.Console.WriteLine(exec, " wasn't found"); //error message
+                System.Console.WriteLine(exec, Resources.Start_Main__wasn_t_found); //error message
                 System.Threading.Thread.Sleep(2000); //Pause before closing
             }
         }
