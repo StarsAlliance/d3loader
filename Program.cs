@@ -2,7 +2,7 @@
 using System.IO;
 using D3Loader.Properties;
 
-namespace D3Loader
+namespace AppLoader
 {
     internal static class Start
     {
@@ -20,7 +20,7 @@ namespace D3Loader
                 d3.Start();
             }
             else
-            { 
+            {
                 System.Console.WriteLine(exec, Resources.Start_Main__wasn_t_found); //error message
                 System.Threading.Thread.Sleep(2000); //Pause before closing
             }
