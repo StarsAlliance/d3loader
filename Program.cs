@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 using System.IO;
-using D3Loader.Properties;
+using AppLoader.Properties;
 
 namespace AppLoader
 {
@@ -16,12 +16,12 @@ namespace AppLoader
                 d3.StartInfo.Arguments = "-launch";
                 d3.StartInfo.CreateNoWindow = true;
                 d3.StartInfo.UseShellExecute = false;
-                System.Console.WriteLine(Resources.Start_Main_Starting_the_game);
+                System.Console.WriteLine(Resources.StartingTheGame);
                 d3.Start();
             }
             else
             {
-                System.Console.WriteLine(exec, Resources.Start_Main__wasn_t_found); //error message
+                System.Console.WriteLine(exec + Resources.WasntFound); //error message
                 System.Threading.Thread.Sleep(2000); //Pause before closing
             }
         }

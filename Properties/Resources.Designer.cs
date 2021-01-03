@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace D3Loader.Properties {
+namespace AppLoader.Properties {
     using System;
     
     
@@ -19,7 +19,7 @@ namespace D3Loader.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -39,7 +39,7 @@ namespace D3Loader.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("D3Loader.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AppLoader.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,30 +61,20 @@ namespace D3Loader.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        ///   Looks up a localized string similar to Starting the game.
         /// </summary>
-        internal static System.Drawing.Icon d3l {
+        internal static string StartingTheGame {
             get {
-                object obj = ResourceManager.GetObject("d3l", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
+                return ResourceManager.GetString("StartingTheGame", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  wasn&apos;t found.
         /// </summary>
-        internal static string Start_Main__wasn_t_found {
+        internal static string WasntFound {
             get {
-                return ResourceManager.GetString("Start_Main__wasn_t_found", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Starting the game.
-        /// </summary>
-        internal static string Start_Main_Starting_the_game {
-            get {
-                return ResourceManager.GetString("Start_Main_Starting_the_game", resourceCulture);
+                return ResourceManager.GetString("WasntFound", resourceCulture);
             }
         }
     }
